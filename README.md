@@ -8,7 +8,7 @@ It is designed to replicate a realistic retail pricing environment using ML-base
 
 ---
 
-## 🧭 Table of Contents
+## Table of Contents
 1. [Project Overview](#project-overview)  
 2. [Dataset](#dataset)  
 3. [Key Features Engineered](#key-features-engineered)  
@@ -96,11 +96,6 @@ Performance is validated via:
 ---
 
 ## Price Elasticity Estimation
-Elasticity is computed as:
-
-\[
-E = \frac{\partial Q}{\partial P} \times \frac{P}{Q}
-\]
 
 This helps classify product sensitivity:
 - **Elastic** → price changes cause large quantity shifts  
@@ -122,10 +117,6 @@ We generate price-simulation curves:
 - Predicted quantity for candidate prices  
 - Associated revenue and profit  
 - Identification of optimal price maximizing:
-
-\[
-\pi(P) = P \cdot Q(P) - C \cdot Q(P)
-\]
 
 ---
 
